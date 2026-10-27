@@ -1,0 +1,1451 @@
+.betterads-slot{box-sizing:border-box;width:100%;max-width:100%;margin:12px auto;text-align:center;overflow:hidden}
+.betterads-slot img{display:inline-block;max-width:100%;vertical-align:middle}.betterads-image-wrap{width:100%}.betterads-align-left{text-align:left}.betterads-align-center{text-align:center}.betterads-align-right{text-align:right}.betterads-image-original{width:auto;height:auto}
+.betterads-slot iframe{max-width:100%}
+.betterads-admin-form dl.settings dt{width:24%}
+.betterads-admin-form dl.settings dd{width:74%}
+@media(max-width:720px){.betterads-admin-form dl.settings dt,.betterads-admin-form dl.settings dd{float:none;width:auto}.betterads-slot{margin:8px auto}}
+
+.betterads-label{margin:0 0 4px;text-align:center;font-size:10px;line-height:1.2;font-weight:400;letter-spacing:.08em;text-transform:uppercase;color:#888;opacity:.82}
+
+.betterads-admin-preview{padding:14px}.betterads-admin-preview .betterads-slot{margin:8px auto 14px}
+.betterads-admin-form select#ba_place{min-width:320px;max-width:100%}
+@media(max-width:720px){.betterads-admin-form select#ba_place{min-width:0;width:100%}}
+
+/* dev4a: keep Ad Unit action buttons separated and tidy across SMF themes. */
+.betterads-unit-actions{display:inline-flex;flex-wrap:wrap;justify-content:flex-end;align-items:center;gap:6px}
+.betterads-unit-actions .button{float:none!important;margin:0!important;white-space:nowrap}
+@media(max-width:720px){.betterads-unit-actions{gap:5px}}
+
+
+/* dev5: controlled between-topic / between-reply placements. */
+.betterads-repeat-insert{display:block;box-sizing:border-box;width:100%;clear:both}
+.betterads-repeat-insert .betterads-slot{margin:10px auto}
+
+
+/* dev6: eligibility and placement clarity. */
+.betterads-repeat-preview{padding:7px 9px;border-left:3px solid #8aa6bf;background:rgba(127,127,127,.07)}
+.betterads-placement-note,.betterads-shared-placement{margin-top:4px;color:#856404}
+
+
+/* dev9: compact targeting controls and summaries. */
+.betterads-target-select{width:100%;max-width:560px;min-height:110px}
+.betterads-target-summary{margin-top:3px;color:#657786}
+@media(max-width:720px){.betterads-target-select{max-width:100%}}
+
+
+/* dev10: compact lifetime statistics in the Ad Units table. */
+.betterads-stats-cell{white-space:nowrap;line-height:1.45}
+.betterads-stats-cell strong{font-variant-numeric:tabular-nums}
+
+
+/* dev11: simple statistics detail summary. */
+.betterads-stats-detail .table_grid{margin-top:8px}
+.betterads-stats-detail table th,
+.betterads-stats-detail table td{text-align:left}
+.betterads-stats-detail table th:not(:first-child),
+.betterads-stats-detail table td:not(:first-child){text-align:right}
+.betterads-stats-detail-actions{margin-top:12px}
+
+
+/* dev12: archive/lifecycle filtering. */
+.betterads-status-filters{display:flex;flex-wrap:wrap;gap:6px;margin:0 0 12px}
+.betterads-status-filters .button{margin:0}
+.betterads-status-filters .button.active{font-weight:700;box-shadow:inset 0 0 0 1px currentColor}
+.betterads-filter-count{opacity:.72;font-size:.9em}
+.betterads-row-archived{opacity:.72}
+.betterads-row-archived:hover{opacity:1}
+
+
+/* dev12a: status filter badge polish. */
+.betterads-status-filters .button{
+    display:inline-flex;
+    align-items:center;
+    gap:8px;
+}
+.betterads-filter-label{
+    display:inline-block;
+}
+.betterads-filter-badge{
+    display:inline-flex;
+    align-items:center;
+    justify-content:center;
+    min-width:20px;
+    height:20px;
+    padding:0 7px;
+    border-radius:999px;
+    background:rgba(255,255,255,.22);
+    color:inherit;
+    font-size:.88em;
+    line-height:1;
+    box-sizing:border-box;
+}
+.betterads-status-filters .button.active .betterads-filter-badge{
+    background:rgba(255,255,255,.34);
+    font-weight:700;
+}
+
+
+/* dev13: per-ad disclosure placement/alignment. */
+.betterads-label-left{text-align:left}
+.betterads-label-center{text-align:center}
+.betterads-label-right{text-align:right}
+.betterads-slot > .betterads-label:last-of-type{margin:4px 0 0}
+
+
+/* dev14: advertiser-facing landing page. */
+.betterads-advertise-page{padding:18px}
+.betterads-advertise-copy{max-width:820px;font-size:1.05em;line-height:1.65}
+.betterads-advertise-actions{margin-top:18px}
+
+
+/* dev14b: Advertise With Us admin action spacing. */
+.betterads-advertise-admin-actions{
+    display:flex;
+    justify-content:flex-end;
+    align-items:center;
+    flex-wrap:wrap;
+    gap:8px;
+}
+.betterads-advertise-admin-actions .button{
+    margin:0;
+    float:none;
+}
+
+
+/* dev15: Advertise With Us option cards. */
+.betterads-advertise-options{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:14px;margin:20px 0 4px}
+.betterads-advertise-option{padding:16px;border:1px solid rgba(127,127,127,.28);border-radius:8px;background:rgba(127,127,127,.06)}
+.betterads-advertise-option-title{font-size:1.15em;font-weight:700}
+.betterads-advertise-option-placement{margin-top:3px;opacity:.72;font-size:.9em}
+.betterads-advertise-option-price{margin-top:10px;font-size:1.2em;font-weight:700}
+.betterads-advertise-option-description{margin-top:9px;line-height:1.5}
+.betterads-advertise-offers-admin{margin-top:14px}
+.betterads-advertise-offer-admin{margin:10px 0;padding:12px 14px 14px;border:1px solid rgba(127,127,127,.3);border-radius:7px}
+.betterads-advertise-offer-admin legend{padding:0 6px;font-weight:700}
+.betterads-advertise-offer-toggle{display:inline-block;margin-bottom:10px}
+.betterads-advertise-offer-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px 14px}
+.betterads-advertise-offer-grid label{display:flex;flex-direction:column;gap:4px}
+.betterads-advertise-offer-grid input,.betterads-advertise-offer-grid select,.betterads-advertise-offer-grid textarea{width:100%;box-sizing:border-box}
+.betterads-advertise-offer-description{grid-column:1 / -1}
+@media(max-width:720px){.betterads-advertise-offer-grid{grid-template-columns:1fr}.betterads-advertise-offer-description{grid-column:auto}}
+
+
+/* dev16: smart per-package inquiry routing. */
+.betterads-advertise-option{display:flex;flex-direction:column}
+.betterads-advertise-option-description{flex:1 1 auto}
+.betterads-advertise-option-action{margin-top:14px}
+.betterads-inquiry-button{display:inline-block}
+.betterads-inquiry-pending,.betterads-inquiry-unavailable{opacity:.55;pointer-events:none}
+.betterads-inquiry-status{margin-top:14px;opacity:.75}
+.betterads-inquiry-routing-note{margin:10px 0 14px}
+
+
+/* dev17: structured advertising request workflow. */
+.betterads-advertise-option-action{
+    display:flex;
+    flex-wrap:wrap;
+    gap:8px;
+    align-items:center;
+}
+.betterads-request-page{padding:18px}
+.betterads-request-summary{
+    margin-bottom:16px;
+    padding:14px 16px;
+    border:1px solid rgba(0,0,0,.12);
+    border-radius:6px;
+}
+.betterads-request-price{font-size:1.08em;font-weight:700;margin-top:4px}
+.betterads-request-grid{
+    display:grid;
+    grid-template-columns:repeat(2,minmax(0,1fr));
+    gap:14px 18px;
+}
+.betterads-request-grid label{display:flex;flex-direction:column;gap:5px}
+.betterads-request-grid input,.betterads-request-grid textarea{width:100%;box-sizing:border-box}
+.betterads-request-wide{grid-column:1/-1}
+.betterads-request-actions{display:flex;justify-content:flex-end;gap:8px;margin-top:16px}
+.betterads-request-success{margin-bottom:16px}
+.betterads-request-counts{display:flex;flex-wrap:wrap;gap:8px;margin:10px 0 14px}
+.betterads-request-count{display:inline-block;padding:6px 10px;border:1px solid rgba(0,0,0,.12);border-radius:999px}
+.betterads-requests-table-wrap{overflow-x:auto}
+.betterads-requests-table{width:100%}
+.betterads-requests-table td{vertical-align:top}
+.betterads-request-status-form{display:flex;gap:6px;align-items:center;flex-wrap:wrap}
+.betterads-request-notes{margin-top:6px}
+.betterads-request-notes div{margin-top:6px;max-width:420px}
+@media (max-width:700px){
+    .betterads-request-grid{grid-template-columns:1fr}
+    .betterads-request-wide{grid-column:auto}
+}
+
+
+/* dev18: DB-backed dynamic advertising tiers. */
+.betterads-tier-heading{
+    display:flex;
+    align-items:flex-start;
+    justify-content:space-between;
+    gap:16px;
+    margin-top:18px;
+}
+.betterads-tier-heading h4{margin:0 0 4px}
+.betterads-advertise-offer-admin{display:block;margin:12px 0}
+.betterads-advertise-offer-admin fieldset{
+    margin:0;
+    padding:14px;
+    border:1px solid rgba(0,0,0,.14);
+    border-radius:6px;
+}
+.betterads-tier-actions{
+    display:flex;
+    justify-content:flex-end;
+    gap:8px;
+    margin-top:12px;
+}
+@media (max-width:700px){
+    .betterads-tier-heading{display:block}
+    .betterads-tier-heading form{margin-top:10px}
+}
+
+
+/* dev19: approved request -> draft ad workflow. */
+.betterads-request-ad-action{margin-top:8px}
+.betterads-create-from-request{margin-bottom:10px}
+.betterads-create-from-request details{margin:8px 0}
+
+
+/* dev20: advertiser-owned creative uploads. */
+.betterads-request-upload input[type="file"]{width:100%;box-sizing:border-box}
+.betterads-request-creative img{
+    display:block;
+    max-width:220px;
+    max-height:90px;
+    width:auto;
+    height:auto;
+    margin-top:6px;
+    border:1px solid rgba(0,0,0,.14);
+    border-radius:4px;
+    background:#fff;
+}
+
+
+/* dev21: native themed ad cells.
+   The goal is for an advertisement to feel like part of the current forum
+   structure instead of a banner floating between unrelated page sections. */
+
+.betterads-native-cell{
+    box-sizing:border-box;
+    width:100%;
+    max-width:100%;
+    clear:both;
+    margin:12px 0;
+}
+.betterads-native-cell .betterads-slot{
+    margin:0;
+}
+.betterads-native-header{
+    margin:0;
+}
+.betterads-native-header .catbg{
+    position:relative;
+}
+.betterads-sponsored-mark{
+    display:inline-block;
+    margin-right:7px;
+    font-size:.95em;
+    line-height:1;
+}
+.betterads-native-header-note{
+    float:right;
+    font-size:.78em;
+    font-weight:400;
+    opacity:.86;
+}
+.betterads-native-body{
+    box-sizing:border-box;
+    padding:18px;
+    overflow:hidden;
+}
+.betterads-native-body .betterads-image-wrap{
+    line-height:0;
+}
+.betterads-native-body .betterads-label{
+    line-height:normal;
+}
+
+/* Topic list: deliberately shaped as a list row rather than a mini section. */
+.betterads-native-topic-row{
+    display:grid;
+    grid-template-columns:minmax(115px, 145px) minmax(0, 1fr);
+    align-items:stretch;
+    padding:0;
+    overflow:hidden;
+    border-radius:5px;
+}
+.betterads-topic-sponsored-rail{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    gap:7px;
+    min-height:108px;
+    padding:12px;
+    border-right:1px solid rgba(127,127,127,.2);
+    text-align:center;
+}
+.betterads-topic-sponsored-icon{
+    font-size:2em;
+    line-height:1;
+}
+.betterads-topic-sponsored-text{
+    display:inline-block;
+    padding:3px 9px;
+    border-radius:999px;
+    font-size:.85em;
+    font-weight:600;
+    background:rgba(127,127,127,.12);
+}
+.betterads-topic-sponsored-content{
+    min-width:0;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    padding:12px 16px;
+    overflow:hidden;
+}
+.betterads-topic-sponsored-content .betterads-slot{
+    width:100%;
+}
+.betterads-topic-sponsored-content .betterads-image-wrap{
+    line-height:0;
+}
+
+/* Topic view: mimic the post hierarchy with a rail + enclosed content area. */
+.betterads-native-post{
+    overflow:hidden;
+}
+.betterads-native-post-grid{
+    display:grid;
+    grid-template-columns:minmax(150px, 190px) minmax(0, 1fr);
+    padding:0;
+    overflow:hidden;
+}
+.betterads-native-post-rail{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:flex-start;
+    gap:4px;
+    min-height:130px;
+    padding:16px 12px;
+    border-right:1px solid rgba(127,127,127,.2);
+    text-align:center;
+}
+.betterads-native-post-rail > span{
+    font-size:.9em;
+    opacity:.75;
+}
+.betterads-post-megaphone{
+    margin-top:12px;
+    font-size:2.25em !important;
+    opacity:.55 !important;
+}
+.betterads-native-post-content{
+    min-width:0;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    padding:14px 16px;
+    overflow:hidden;
+}
+.betterads-native-post-content .betterads-slot{
+    width:100%;
+}
+.betterads-native-post-content .betterads-image-wrap{
+    line-height:0;
+}
+
+/* The repeat host itself should disappear visually; the native cell inside it
+   provides all visible framing. */
+.betterads-repeat-insert{
+    margin:0;
+    padding:0;
+    background:transparent;
+    border:0;
+}
+.betterads-repeat-topic-list .betterads-native-topic-row{
+    margin:0;
+    border-radius:0;
+}
+.betterads-repeat-topic-view .betterads-native-post{
+    margin:10px 0;
+}
+
+/* Keep banners comfortably contained on narrow screens without losing the
+   native cell treatment. */
+@media(max-width:720px){
+    .betterads-native-cell{margin:8px 0}
+    .betterads-native-body{padding:12px}
+
+    .betterads-native-topic-row,
+    .betterads-native-post-grid{
+        grid-template-columns:1fr;
+    }
+
+    .betterads-topic-sponsored-rail,
+    .betterads-native-post-rail{
+        min-height:auto;
+        flex-direction:row;
+        justify-content:flex-start;
+        border-right:0;
+        border-bottom:1px solid rgba(127,127,127,.2);
+        padding:9px 12px;
+        text-align:left;
+    }
+
+    .betterads-topic-sponsored-icon,
+    .betterads-post-megaphone{
+        margin:0;
+        font-size:1.15em !important;
+    }
+
+    .betterads-topic-sponsored-content,
+    .betterads-native-post-content{
+        padding:10px;
+    }
+
+    .betterads-native-header-note{
+        float:none;
+        margin-left:8px;
+    }
+}
+
+
+/* dev21a: alignment hotfix.
+   Native ad cells introduced flex/grid parents, so use an explicit flex
+   alignment contract for image creatives instead of relying only on inherited
+   text-align. This makes Left / Center / Right deterministic everywhere. */
+.betterads-image-wrap{
+    display:flex;
+    width:100%;
+    max-width:100%;
+    align-items:flex-start;
+}
+.betterads-image-wrap.betterads-align-left{
+    justify-content:flex-start;
+    text-align:left;
+}
+.betterads-image-wrap.betterads-align-center{
+    justify-content:center;
+    text-align:center;
+}
+.betterads-image-wrap.betterads-align-right{
+    justify-content:flex-end;
+    text-align:right;
+}
+.betterads-image-wrap > a{
+    display:block;
+    max-width:100%;
+    line-height:0;
+}
+.betterads-image-wrap > img,
+.betterads-image-wrap > a > img{
+    flex:0 1 auto;
+    max-width:100%;
+}
+
+/* The disclosure label follows its own alignment setting. */
+.betterads-label-left{text-align:left}
+.betterads-label-center{text-align:center}
+.betterads-label-right{text-align:right}
+
+
+/* dev21b: hard alignment fix.
+   The actual clickable/image holder is shrink-to-fit and is moved with auto
+   margins. This survives themes that force links to display:block/width:100%. */
+.betterads-image-wrap > .betterads-image-link{
+    display:block !important;
+    width:max-content !important;
+    max-width:100% !important;
+    line-height:0;
+}
+.betterads-image-wrap > .betterads-image-link-left{
+    margin-left:0 !important;
+    margin-right:auto !important;
+}
+.betterads-image-wrap > .betterads-image-link-center{
+    margin-left:auto !important;
+    margin-right:auto !important;
+}
+.betterads-image-wrap > .betterads-image-link-right{
+    margin-left:auto !important;
+    margin-right:0 !important;
+}
+.betterads-image-wrap > .betterads-image-link > img{
+    display:block;
+    max-width:100%;
+}
+
+
+/* dev21c: native-cell alignment fix.
+   Diagnosis: dev21 forced .betterads-slot to width:100% inside topic/post cells.
+   That made Left/Center/Right visually identical because the thing being aligned
+   already occupied the entire available row.  Move the whole ad block instead. */
+
+/* General themed cells */
+.betterads-native-body{
+    display:flex;
+    flex-direction:column;
+}
+.betterads-native-body.betterads-native-align-left{align-items:flex-start}
+.betterads-native-body.betterads-native-align-center{align-items:center}
+.betterads-native-body.betterads-native-align-right{align-items:flex-end}
+
+/* Topic-list native row */
+.betterads-topic-sponsored-content.betterads-native-align-left{justify-content:flex-start}
+.betterads-topic-sponsored-content.betterads-native-align-center{justify-content:center}
+.betterads-topic-sponsored-content.betterads-native-align-right{justify-content:flex-end}
+
+/* Topic-view/reply native cell */
+.betterads-native-post-content.betterads-native-align-left{justify-content:flex-start}
+.betterads-native-post-content.betterads-native-align-center{justify-content:center}
+.betterads-native-post-content.betterads-native-align-right{justify-content:flex-end}
+
+/* Critical fix: the slot must shrink to its creative instead of filling the row.
+   This keeps the disclosure label and banner moving together as one ad block. */
+.betterads-topic-sponsored-content > .betterads-slot,
+.betterads-native-post-content > .betterads-slot,
+.betterads-native-body > .betterads-slot{
+    width:max-content !important;
+    max-width:100% !important;
+    flex:0 1 auto;
+    margin-left:0;
+    margin-right:0;
+}
+
+/* Once the slot itself is positioned, the image wrapper should simply fill
+   that slot; don't create a second competing alignment system. */
+.betterads-topic-sponsored-content > .betterads-slot > .betterads-image-wrap,
+.betterads-native-post-content > .betterads-slot > .betterads-image-wrap,
+.betterads-native-body > .betterads-slot > .betterads-image-wrap{
+    width:auto !important;
+    max-width:100% !important;
+}
+
+/* Keep label width tied to the same shrink-wrapped ad block. */
+.betterads-topic-sponsored-content > .betterads-slot > .betterads-label,
+.betterads-native-post-content > .betterads-slot > .betterads-label,
+.betterads-native-body > .betterads-slot > .betterads-label{
+    width:auto;
+}
+
+@media(max-width:720px){
+    .betterads-topic-sponsored-content > .betterads-slot,
+    .betterads-native-post-content > .betterads-slot,
+    .betterads-native-body > .betterads-slot{
+        width:100% !important;
+    }
+}
+
+
+/* dev21d: slot alignment is now emitted inline by PHP.
+   These rules are fallback/documentation only. */
+.betterads-slot[data-betterads-unit]{
+    box-sizing:border-box;
+}
+
+
+/* dev21e temporary live alignment diagnostic shown only because PHP emits it
+   for administrators. Remove after the alignment source is identified. */
+.betterads-live-debug{
+    display:block;
+    margin-top:6px;
+    padding:3px 6px;
+    border:1px dashed rgba(127,127,127,.45);
+    border-radius:4px;
+    font-size:10px;
+    line-height:1.25;
+    font-family:monospace;
+    white-space:normal;
+    opacity:.8;
+}
+
+
+/* dev21f: forced native alignment.
+   dev21e confirmed the correct DB value reaches the renderer. Alignment now
+   happens on the exact full-width native content cell using text-align, while
+   the whole ad slot is an inline-block. The PHP inline styles are authoritative. */
+.betterads-topic-sponsored-content > .betterads-slot,
+.betterads-native-post-content > .betterads-slot,
+.betterads-native-body > .betterads-slot{
+    display:inline-block !important;
+    width:auto !important;
+    max-width:100% !important;
+    margin:0 !important;
+    vertical-align:top !important;
+}
+
+/* Remove the temporary admin diagnostic from dev21e if stale cached markup is
+   encountered during an upgrade. */
+.betterads-live-debug{display:none !important}
+
+
+/* dev22: order/payment page. */
+.betterads-order-page{padding:18px}
+.betterads-order-status-grid{
+    display:grid;
+    grid-template-columns:repeat(2,minmax(0,1fr));
+    gap:12px;
+    margin-bottom:14px;
+}
+.betterads-order-status-grid>div{
+    border:1px solid rgba(0,0,0,.12);
+    border-radius:6px;
+    padding:10px 12px;
+}
+.betterads-order-status-grid span,
+.betterads-order-status-grid strong{display:block}
+.betterads-order-summary{
+    border:1px solid rgba(0,0,0,.12);
+    border-radius:6px;
+    padding:14px 16px;
+    margin-bottom:14px;
+}
+.betterads-order-summary h4{margin:0 0 5px}
+.betterads-order-price{font-size:1.15em;font-weight:700;margin-bottom:4px}
+.betterads-order-columns{
+    display:grid;
+    grid-template-columns:repeat(2,minmax(0,1fr));
+    gap:14px;
+    margin-bottom:14px;
+}
+.betterads-order-panel{
+    border:1px solid rgba(0,0,0,.12);
+    border-radius:6px;
+    padding:14px;
+}
+.betterads-order-panel h4{margin:0 0 8px}
+.betterads-order-creative{
+    display:block;
+    max-width:100%;
+    max-height:180px;
+    width:auto;
+    height:auto;
+    border-radius:4px;
+}
+.betterads-order-payment{
+    border:1px solid rgba(0,0,0,.12);
+    border-radius:6px;
+    padding:14px;
+}
+.betterads-order-payment h4{margin-top:0}
+.betterads-order-instructions{margin:10px 0}
+.betterads-order-pay-actions{margin:14px 0;text-align:right}
+.betterads-pay-button{font-weight:700}
+.betterads-payment-safety{margin:12px 0 0;opacity:.75}
+.betterads-order-notes{margin-top:14px}
+.betterads-order-notes>div{margin-top:8px}
+.betterads-payment-required{
+    grid-column:1/-1;
+}
+.betterads-payment-required .smalltext{
+    display:block;
+    margin-top:4px;
+}
+.betterads-request-status-form input[name="payment_reference"]{
+    min-width:150px;
+}
+@media(max-width:700px){
+    .betterads-order-status-grid,
+    .betterads-order-columns{grid-template-columns:1fr}
+}
+
+
+/* 1.1.0-dev1: Better Gallery integration. */
+.betterads-native-gallery {
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 100%;
+    margin: 10px 0;
+}
+.betterads-native-gallery .betterads-native-body {
+    padding: 10px 12px;
+}
+.betterads-native-gallery .betterads-slot {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+
+/* 1.1.0-dev2: optional Sponsored Gallery Card presentation. */
+.betterads-gallery-sponsored-card {
+	display: block;
+	box-sizing: border-box;
+	width: 100%;
+	min-width: 0;
+	height: 100%;
+	overflow: hidden;
+	border: 1px solid rgba(127,127,127,.24);
+	border-radius: 8px;
+	text-decoration: none;
+}
+
+.betterads-gallery-sponsored-creative {
+	position: relative;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	aspect-ratio: 4 / 3;
+	overflow: hidden;
+	background: rgba(127,127,127,.07);
+}
+
+.betterads-gallery-sponsored-creative .betterads-slot {
+	display: flex !important;
+	align-items: center;
+	justify-content: center;
+	width: 100% !important;
+	height: 100%;
+	max-width: 100% !important;
+	margin: 0 !important;
+}
+
+.betterads-gallery-sponsored-creative .betterads-image-wrap,
+.betterads-gallery-sponsored-creative .betterads-image-link {
+	display: flex !important;
+	align-items: center;
+	justify-content: center;
+	width: 100% !important;
+	height: 100%;
+	max-width: 100% !important;
+	margin: 0 !important;
+}
+
+.betterads-gallery-sponsored-creative .betterads-image {
+	display: block;
+	width: 100% !important;
+	height: 100% !important;
+	max-width: none !important;
+	object-fit: contain;
+}
+
+.betterads-gallery-sponsored-card-body {
+	padding: 10px;
+}
+
+.betterads-gallery-sponsored-title,
+.betterads-gallery-sponsored-note {
+	display: block;
+}
+
+.betterads-gallery-sponsored-note {
+	margin-top: 2px;
+	opacity: .75;
+}
+
+
+/* 1.1.0-dev3: separated admin workspace. */
+.betterads-admin-shell {
+	margin-bottom: 12px;
+}
+.betterads-admin-nav {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 6px;
+	margin-top: 10px;
+}
+.betterads-admin-nav .button.active {
+	font-weight: 700;
+}
+.betterads-nav-badge {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	min-width: 19px;
+	height: 19px;
+	margin-left: 6px;
+	padding: 0 5px;
+	border-radius: 999px;
+	box-sizing: border-box;
+	text-align: center;
+	font-size: .82em;
+	font-weight: 700;
+	line-height: 1;
+	color: #fff !important;
+	background: rgba(0,0,0,.30);
+	box-shadow: inset 0 0 0 1px rgba(255,255,255,.12);
+}
+.betterads-admin-nav .button.active .betterads-nav-badge {
+	background: rgba(0,0,0,.38);
+}
+.betterads-dashboard-grid {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+	gap: 10px;
+	margin: 12px 0;
+}
+.betterads-dashboard-card {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	min-height: 92px;
+	padding: 12px;
+	text-align: center;
+	text-decoration: none;
+	border-radius: 7px;
+}
+.betterads-dashboard-card strong {
+	display: block;
+	font-size: 1.65em;
+	line-height: 1.1;
+}
+.betterads-dashboard-card span {
+	display: block;
+	margin-top: 6px;
+}
+.betterads-dashboard-workflow {
+	display: flex;
+	align-items: stretch;
+	justify-content: center;
+	gap: 10px;
+	margin-bottom: 12px;
+}
+.betterads-dashboard-workflow > div {
+	flex: 1 1 0;
+	padding: 12px;
+	text-align: center;
+	border: 1px solid rgba(127,127,127,.2);
+	border-radius: 7px;
+}
+.betterads-dashboard-workflow strong,
+.betterads-dashboard-workflow span {
+	display: block;
+}
+.betterads-dashboard-workflow div span {
+	margin-top: 4px;
+}
+.betterads-workflow-arrow {
+	align-self: center;
+	font-size: 1.45em;
+	font-weight: 700;
+}
+@media (max-width: 700px) {
+	.betterads-dashboard-workflow {
+		flex-direction: column;
+	}
+	.betterads-workflow-arrow {
+		transform: rotate(90deg);
+	}
+}
+
+
+/* 1.1.0-dev4: Requests & Orders pipeline. */
+.betterads-pipeline-summary {
+	display: grid;
+	grid-template-columns: repeat(4, minmax(140px, 1fr));
+	gap: 10px;
+	margin: 12px 0;
+}
+.betterads-pipeline-card {
+	padding: 12px;
+	text-align: center;
+	border-radius: 7px;
+}
+.betterads-pipeline-card strong {
+	display: block;
+	font-size: 1.6em;
+	line-height: 1.1;
+}
+.betterads-pipeline-card span,
+.betterads-pipeline-card small {
+	display: block;
+}
+.betterads-pipeline-card span {
+	margin-top: 5px;
+	font-weight: 700;
+}
+.betterads-pipeline-card small {
+	margin-top: 3px;
+	opacity: .78;
+}
+.betterads-workflow-legend {
+	display: flex;
+	gap: 10px;
+	align-items: center;
+	margin-bottom: 12px;
+	padding: 10px 12px;
+	border-radius: 7px;
+}
+.betterads-workflow-legend strong {
+	flex: 0 0 auto;
+}
+.betterads-request-card-list {
+	display: grid;
+	gap: 12px;
+}
+.betterads-request-card {
+	padding: 0;
+	overflow: hidden;
+	border-radius: 8px;
+}
+.betterads-request-card-head {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	gap: 12px;
+	padding: 12px 14px;
+	border-bottom: 1px solid rgba(127,127,127,.2);
+}
+.betterads-request-number {
+	font-size: 1.15em;
+}
+.betterads-request-date {
+	margin-left: 8px;
+	font-size: .9em;
+	opacity: .72;
+}
+.betterads-request-pills {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 6px;
+	justify-content: flex-end;
+}
+.betterads-status-pill {
+	display: inline-block;
+	padding: 4px 8px;
+	border: 1px solid rgba(127,127,127,.3);
+	border-radius: 999px;
+	font-size: .85em;
+	font-weight: 700;
+}
+.betterads-status-approved,
+.betterads-payment-paid,
+.betterads-payment-waived {
+	background: rgba(47,158,68,.12);
+}
+.betterads-status-pending,
+.betterads-payment-pending,
+.betterads-payment-unpaid {
+	background: rgba(245,159,0,.12);
+}
+.betterads-status-declined,
+.betterads-payment-refunded {
+	background: rgba(224,49,49,.10);
+}
+.betterads-request-card-grid {
+	display: grid;
+	grid-template-columns: repeat(4, minmax(0, 1fr));
+	gap: 0;
+}
+.betterads-request-card-grid > section {
+	min-width: 0;
+	padding: 12px 14px;
+	border-right: 1px solid rgba(127,127,127,.16);
+}
+.betterads-request-card-grid > section:last-child {
+	border-right: 0;
+}
+.betterads-request-card-grid h4 {
+	margin: 0 0 7px;
+}
+.betterads-request-next strong,
+.betterads-request-next span {
+	display: block;
+}
+.betterads-request-next span {
+	margin-top: 5px;
+	font-size: .9em;
+	opacity: .8;
+}
+.betterads-next-ready {
+	background: rgba(47,158,68,.07);
+}
+.betterads-next-payment,
+.betterads-next-review {
+	background: rgba(245,159,0,.07);
+}
+.betterads-next-declined {
+	background: rgba(224,49,49,.05);
+}
+.betterads-request-controls {
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-end;
+	gap: 12px;
+	padding: 12px 14px;
+	border-top: 1px solid rgba(127,127,127,.2);
+}
+.betterads-request-status-form {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: flex-end;
+	gap: 8px;
+	flex: 1 1 auto;
+}
+.betterads-request-status-form label {
+	display: flex;
+	flex-direction: column;
+	gap: 3px;
+}
+.betterads-request-status-form label > span {
+	font-size: .85em;
+	font-weight: 700;
+}
+.betterads-payment-reference {
+	flex: 1 1 180px;
+}
+.betterads-payment-reference input {
+	width: 100%;
+	box-sizing: border-box;
+}
+.betterads-request-actions {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 6px;
+	justify-content: flex-end;
+}
+.betterads-disabled-action {
+	opacity: .55;
+	cursor: default;
+	pointer-events: none;
+}
+@media (max-width: 900px) {
+	.betterads-pipeline-summary,
+	.betterads-request-card-grid {
+		grid-template-columns: repeat(2, minmax(0, 1fr));
+	}
+	.betterads-request-card-grid > section:nth-child(2) {
+		border-right: 0;
+	}
+	.betterads-request-card-grid > section {
+		border-bottom: 1px solid rgba(127,127,127,.16);
+	}
+}
+@media (max-width: 600px) {
+	.betterads-pipeline-summary,
+	.betterads-request-card-grid {
+		grid-template-columns: 1fr;
+	}
+	.betterads-request-card-head,
+	.betterads-request-controls {
+		align-items: stretch;
+		flex-direction: column;
+	}
+	.betterads-request-card-grid > section {
+		border-right: 0;
+	}
+	.betterads-request-actions {
+		justify-content: flex-start;
+	}
+}
+
+
+/* 1.1.0-dev5: Statistics workspace polish. */
+.betterads-stats-intro {
+	margin-bottom: 12px;
+}
+.betterads-stats-summary {
+	display: grid;
+	grid-template-columns: repeat(4, minmax(140px, 1fr));
+	gap: 10px;
+	margin: 12px 0;
+}
+.betterads-stats-summary-card {
+	padding: 14px 12px;
+	text-align: center;
+	border-radius: 7px;
+}
+.betterads-stats-summary-card strong {
+	display: block;
+	font-size: 1.7em;
+	line-height: 1.1;
+}
+.betterads-stats-summary-card span {
+	display: block;
+	margin-top: 6px;
+}
+.betterads-stats-detail-panel {
+	margin-bottom: 12px;
+	padding: 12px;
+}
+.betterads-stats-detail-head {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	gap: 12px;
+}
+.betterads-stats-detail-head > div:first-child strong,
+.betterads-stats-detail-head > div:first-child span {
+	display: block;
+}
+.betterads-stats-detail-head > div:first-child span {
+	margin-top: 3px;
+	opacity: .75;
+}
+.betterads-stats-range-grid {
+	display: grid;
+	grid-template-columns: repeat(4, minmax(150px, 1fr));
+	gap: 10px;
+	margin-top: 12px;
+}
+.betterads-stats-range-card {
+	padding: 12px;
+	border: 1px solid rgba(127,127,127,.2);
+	border-radius: 7px;
+}
+.betterads-stats-range-card h4 {
+	margin: 0 0 10px;
+	text-align: center;
+}
+.betterads-range-metrics {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 6px;
+	text-align: center;
+}
+.betterads-range-metrics strong,
+.betterads-range-metrics span {
+	display: block;
+}
+.betterads-range-metrics strong {
+	font-size: 1.12em;
+}
+.betterads-range-metrics span {
+	margin-top: 2px;
+	font-size: .8em;
+	opacity: .75;
+}
+.betterads-stats-table-wrap {
+	padding: 0;
+	overflow: hidden;
+}
+.betterads-stats-table th.centertext,
+.betterads-stats-table td.centertext {
+	text-align: center;
+}
+.betterads-stats-table td {
+	vertical-align: middle;
+}
+.betterads-stats-status {
+	display: inline-block;
+	padding: 3px 7px;
+	border: 1px solid rgba(127,127,127,.28);
+	border-radius: 999px;
+	font-size: .84em;
+	font-weight: 700;
+}
+.betterads-stats-status-active {
+	background: rgba(47,158,68,.10);
+}
+.betterads-stats-status-scheduled {
+	background: rgba(34,139,230,.10);
+}
+.betterads-stats-status-expired,
+.betterads-stats-status-disabled,
+.betterads-stats-status-needs_content {
+	background: rgba(245,159,0,.10);
+}
+.betterads-stats-status-archived {
+	opacity: .7;
+}
+.betterads-stats-no-activity {
+	opacity: .76;
+}
+@media (max-width: 850px) {
+	.betterads-stats-summary,
+	.betterads-stats-range-grid {
+		grid-template-columns: repeat(2, minmax(0, 1fr));
+	}
+}
+@media (max-width: 560px) {
+	.betterads-stats-summary,
+	.betterads-stats-range-grid {
+		grid-template-columns: 1fr;
+	}
+	.betterads-stats-detail-head {
+		align-items: stretch;
+		flex-direction: column;
+	}
+}
+
+
+/* 1.1.0-dev6: private advertiser campaign dashboard. */
+.betterads-advertiser-performance-heading {
+	margin-top: 18px;
+}
+.betterads-advertiser-dashboard {
+	margin-top: 0;
+	padding: 14px;
+	border: 1px solid rgba(127,127,127,.22);
+	border-radius: 0 0 8px 8px;
+}
+.betterads-advertiser-campaign-head {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	gap: 12px;
+	padding-bottom: 12px;
+	border-bottom: 1px solid rgba(127,127,127,.18);
+}
+.betterads-advertiser-campaign-head > div:first-child strong,
+.betterads-advertiser-campaign-head > div:first-child span {
+	display: block;
+}
+.betterads-advertiser-campaign-head > div:first-child strong {
+	font-size: 1.15em;
+}
+.betterads-advertiser-campaign-head > div:first-child span {
+	margin-top: 3px;
+	opacity: .75;
+}
+.betterads-campaign-status {
+	display: inline-block;
+	padding: 5px 9px;
+	border: 1px solid rgba(127,127,127,.28);
+	border-radius: 999px;
+	font-weight: 700;
+}
+.betterads-campaign-status-active {
+	background: rgba(47,158,68,.12);
+}
+.betterads-campaign-status-scheduled {
+	background: rgba(34,139,230,.10);
+}
+.betterads-campaign-status-disabled,
+.betterads-campaign-status-needs_content {
+	background: rgba(245,159,0,.10);
+}
+.betterads-campaign-status-expired,
+.betterads-campaign-status-archived {
+	opacity: .75;
+}
+.betterads-advertiser-performance-intro {
+	margin: 12px 0;
+}
+.betterads-advertiser-stats-grid {
+	display: grid;
+	grid-template-columns: repeat(4, minmax(150px, 1fr));
+	gap: 10px;
+}
+.betterads-advertiser-stats-card {
+	padding: 12px;
+	border: 1px solid rgba(127,127,127,.2);
+	border-radius: 7px;
+}
+.betterads-advertiser-stats-card h4 {
+	margin: 0 0 10px;
+	text-align: center;
+}
+.betterads-advertiser-metrics {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 6px;
+	text-align: center;
+}
+.betterads-advertiser-metrics strong,
+.betterads-advertiser-metrics span {
+	display: block;
+}
+.betterads-advertiser-metrics strong {
+	font-size: 1.1em;
+}
+.betterads-advertiser-metrics span {
+	margin-top: 2px;
+	font-size: .8em;
+	opacity: .75;
+}
+.betterads-advertiser-campaign-info {
+	display: grid;
+	grid-template-columns: repeat(3, minmax(150px, 1fr));
+	gap: 10px;
+	margin-top: 12px;
+}
+.betterads-advertiser-campaign-info > div {
+	padding: 10px 12px;
+	border: 1px solid rgba(127,127,127,.18);
+	border-radius: 7px;
+}
+.betterads-advertiser-campaign-info span,
+.betterads-advertiser-campaign-info strong {
+	display: block;
+}
+.betterads-advertiser-campaign-info span {
+	font-size: .82em;
+	opacity: .72;
+}
+.betterads-advertiser-campaign-info strong {
+	margin-top: 3px;
+}
+.betterads-advertiser-live-creative {
+	margin-top: 12px;
+}
+.betterads-advertiser-live-creative h4 {
+	margin: 0 0 8px;
+}
+.betterads-advertiser-live-creative img {
+	display: block;
+	max-width: 100%;
+	max-height: 320px;
+	width: auto;
+	height: auto;
+	margin: 0 auto;
+	border-radius: 6px;
+}
+.betterads-advertiser-private-note {
+	margin: 12px 0 0;
+	text-align: center;
+	opacity: .72;
+}
+@media (max-width: 850px) {
+	.betterads-advertiser-stats-grid {
+		grid-template-columns: repeat(2, minmax(0, 1fr));
+	}
+	.betterads-advertiser-campaign-info {
+		grid-template-columns: 1fr;
+	}
+}
+@media (max-width: 520px) {
+	.betterads-advertiser-stats-grid {
+		grid-template-columns: 1fr;
+	}
+	.betterads-advertiser-campaign-head {
+		align-items: flex-start;
+		flex-direction: column;
+	}
+}
+
+
+/* 1.1.0-dev7: campaign lifecycle and renewals. */
+.betterads-lifecycle-grid {
+	display: grid;
+	grid-template-columns: repeat(4, minmax(130px, 1fr));
+	gap: 10px;
+	margin: 12px 0;
+}
+.betterads-lifecycle-card {
+	padding: 12px;
+	text-align: center;
+	border-radius: 7px;
+}
+.betterads-lifecycle-card strong,
+.betterads-lifecycle-card span {
+	display: block;
+}
+.betterads-lifecycle-card strong {
+	font-size: 1.55em;
+}
+.betterads-lifecycle-card span {
+	margin-top: 5px;
+}
+.betterads-renewal-badge {
+	display: inline-block;
+	margin: 0 0 6px;
+	padding: 3px 7px;
+	border: 1px solid rgba(34,139,230,.3);
+	border-radius: 999px;
+	background: rgba(34,139,230,.08);
+	font-size: .84em;
+	font-weight: 700;
+}
+.betterads-inline-renew-form {
+	display: inline-block;
+	margin: 0;
+}
+.betterads-renewal-panel {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	gap: 12px;
+	margin-top: 12px;
+	padding: 12px;
+	border: 1px solid rgba(34,139,230,.25);
+	border-radius: 7px;
+	background: rgba(34,139,230,.06);
+}
+.betterads-renewal-panel > div {
+	flex: 1 1 auto;
+}
+.betterads-renewal-panel strong,
+.betterads-renewal-panel span {
+	display: block;
+}
+.betterads-renewal-panel span {
+	margin-top: 4px;
+}
+.betterads-renewal-panel form {
+	margin: 0;
+	flex: 0 0 auto;
+}
+.betterads-renewal-notice {
+	margin-top: 12px;
+}
+.betterads-renewal-actions {
+	margin-top: 8px;
+	text-align: right;
+}
+.betterads-advertise-option-duration {
+	margin-top: 4px;
+	font-weight: 700;
+}
+@media (max-width: 700px) {
+	.betterads-lifecycle-grid {
+		grid-template-columns: repeat(2, minmax(0, 1fr));
+	}
+	.betterads-renewal-panel {
+		align-items: stretch;
+		flex-direction: column;
+	}
+}
+@media (max-width: 460px) {
+	.betterads-lifecycle-grid {
+		grid-template-columns: 1fr;
+	}
+}
+
+
+/* Better Ads 1.1.0 stable: public advertiser experience polish. */
+.betterads-advertise-page{padding:20px}
+.betterads-advertise-hero{padding:2px 2px 14px}
+.betterads-advertise-copy{max-width:900px;font-size:1.06em;line-height:1.65}
+.betterads-advertise-trust{display:flex;flex-wrap:wrap;gap:8px;margin-top:14px}
+.betterads-advertise-trust span{display:inline-flex;align-items:center;padding:5px 9px;border:1px solid rgba(127,127,127,.24);border-radius:999px;background:rgba(127,127,127,.06);font-size:.9em;font-weight:600}
+.betterads-public-workflow{margin:10px 0 22px;padding:16px;border:1px solid rgba(127,127,127,.22);border-radius:8px;background:rgba(127,127,127,.035)}
+.betterads-public-workflow h4{margin:0 0 12px}
+.betterads-public-workflow-grid{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:10px}
+.betterads-public-step{display:flex;align-items:flex-start;gap:9px;min-width:0}
+.betterads-public-step-number{display:inline-flex;align-items:center;justify-content:center;flex:0 0 25px;width:25px;height:25px;border-radius:50%;background:rgba(0,0,0,.18);font-weight:700}
+.betterads-public-step strong,.betterads-public-step span{display:block}
+.betterads-public-step div>span{margin-top:3px;font-size:.87em;line-height:1.35;opacity:.78}
+.betterads-public-section-heading{display:flex;justify-content:space-between;align-items:end;gap:16px;margin:18px 0 4px}
+.betterads-public-section-heading h4{margin:0}
+.betterads-public-section-heading>span{max-width:620px;text-align:right;font-size:.9em;opacity:.75}
+.betterads-advertise-options{align-items:stretch}
+.betterads-advertise-option{display:flex;flex-direction:column;padding:17px}
+.betterads-advertise-option-head{padding-bottom:10px;border-bottom:1px solid rgba(127,127,127,.18)}
+.betterads-advertise-option-meta{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px;margin-top:12px}
+.betterads-advertise-option-meta>div{padding:8px;border-radius:6px;background:rgba(127,127,127,.07)}
+.betterads-advertise-option-meta span,.betterads-advertise-option-meta strong{display:block}
+.betterads-advertise-option-meta span{font-size:.8em;opacity:.72}
+.betterads-advertise-option-meta strong{margin-top:2px}
+.betterads-advertise-option-includes{display:grid;gap:5px;margin-top:12px;font-size:.9em;line-height:1.35}
+.betterads-advertise-option-description{flex:1 1 auto}
+.betterads-advertise-option-action{display:flex;flex-wrap:wrap;gap:7px;margin-top:14px}
+.betterads-advertise-option-action .button{margin:0}
+.betterads-primary-request{font-weight:700}
+.betterads-public-expectation{display:flex;flex-direction:column;gap:3px;margin-top:18px;padding:12px 14px;border-left:3px solid rgba(127,127,127,.45);background:rgba(127,127,127,.05)}
+.betterads-public-expectation span{line-height:1.45}
+.betterads-public-empty{margin:14px 0}
+.betterads-request-summary-polished{display:flex;justify-content:space-between;align-items:center;gap:18px;padding:14px;border:1px solid rgba(127,127,127,.22);border-radius:8px;background:rgba(127,127,127,.05)}
+.betterads-request-summary-main strong,.betterads-request-summary-main span{display:block}
+.betterads-request-summary-main strong{font-size:1.1em}
+.betterads-request-summary-main span{margin-top:3px;opacity:.72}
+.betterads-request-summary-meta{display:flex;gap:8px;flex-wrap:wrap}
+.betterads-request-summary-meta>div{min-width:105px;padding:8px 10px;border-radius:6px;background:rgba(127,127,127,.08)}
+.betterads-request-summary-meta span,.betterads-request-summary-meta strong{display:block}
+.betterads-request-summary-meta span{font-size:.8em;opacity:.72}
+.betterads-request-expectations{display:grid;gap:5px;margin:12px 0 16px;padding:12px 14px;border-radius:7px;background:rgba(127,127,127,.045)}
+.betterads-request-expectations strong{margin-bottom:2px}
+.betterads-request-expectations span{line-height:1.4}
+@media(max-width:900px){.betterads-public-workflow-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.betterads-public-step:last-child{grid-column:1/-1}.betterads-public-section-heading{align-items:flex-start;flex-direction:column}.betterads-public-section-heading>span{text-align:left}.betterads-request-summary-polished{align-items:flex-start;flex-direction:column}}
+@media(max-width:560px){.betterads-advertise-page{padding:14px}.betterads-public-workflow-grid{grid-template-columns:1fr}.betterads-public-step:last-child{grid-column:auto}.betterads-advertise-option-meta{grid-template-columns:1fr}.betterads-advertise-option-action{flex-direction:column}.betterads-advertise-option-action .button{text-align:center}.betterads-request-summary-meta{width:100%;flex-direction:column}.betterads-request-summary-meta>div{min-width:0}}

@@ -1,0 +1,174 @@
+<?xml version="1.0"?>
+<!DOCTYPE package-info SYSTEM "https://www.simplemachines.org/xml/package-info">
+<package-info xmlns="https://www.simplemachines.org/xml/package-info" xmlns:smf="https://www.simplemachines.org/">
+    <id>bettersmf:better-ads</id>
+    <name>Better Ads</name>
+    <version>1.1.0</version>
+    <type>modification</type>
+
+    <install for="2.1 - 2.1.99">
+        <require-file name="Sources/BetterAds.php" destination="$sourcedir" />
+        <require-file name="Sources/BetterAdsFooter.php" destination="$sourcedir" />
+        <require-file name="Themes/default/BetterAds.template.php" destination="$themedir" />
+        <require-file name="Themes/default/BetterAdsAdmin.template.php" destination="$themedir" />
+        <require-file name="Themes/default/languages/BetterAds.english.php" destination="$languagedir" />
+        <require-file name="Themes/default/css/better_ads.css" destination="$themedir/css" />
+        <code>better_ads_install.php</code>
+    </install>
+
+    <upgrade for="2.1 - 2.1.99" from="1.0.0">
+        <require-file name="Sources/BetterAds.php" destination="$sourcedir" />
+        <require-file name="Sources/BetterAdsFooter.php" destination="$sourcedir" />
+        <require-file name="Themes/default/BetterAds.template.php" destination="$themedir" />
+        <require-file name="Themes/default/BetterAdsAdmin.template.php" destination="$themedir" />
+        <require-file name="Themes/default/languages/BetterAds.english.php" destination="$languagedir" />
+        <require-file name="Themes/default/css/better_ads.css" destination="$themedir/css" />
+        <code>better_ads_upgrade_1_1_0.php</code>
+    </upgrade>
+    <upgrade for="2.1 - 2.1.99" from="1.1.0-dev1">
+        <require-file name="Sources/BetterAds.php" destination="$sourcedir" />
+        <require-file name="Sources/BetterAdsFooter.php" destination="$sourcedir" />
+        <require-file name="Themes/default/BetterAds.template.php" destination="$themedir" />
+        <require-file name="Themes/default/BetterAdsAdmin.template.php" destination="$themedir" />
+        <require-file name="Themes/default/languages/BetterAds.english.php" destination="$languagedir" />
+        <require-file name="Themes/default/css/better_ads.css" destination="$themedir/css" />
+        <code>better_ads_upgrade_1_1_0.php</code>
+    </upgrade>
+    <upgrade for="2.1 - 2.1.99" from="1.1.0-dev2">
+        <require-file name="Sources/BetterAds.php" destination="$sourcedir" />
+        <require-file name="Sources/BetterAdsFooter.php" destination="$sourcedir" />
+        <require-file name="Themes/default/BetterAds.template.php" destination="$themedir" />
+        <require-file name="Themes/default/BetterAdsAdmin.template.php" destination="$themedir" />
+        <require-file name="Themes/default/languages/BetterAds.english.php" destination="$languagedir" />
+        <require-file name="Themes/default/css/better_ads.css" destination="$themedir/css" />
+        <code>better_ads_upgrade_1_1_0.php</code>
+    </upgrade>
+    <upgrade for="2.1 - 2.1.99" from="1.1.0-dev3">
+        <require-file name="Sources/BetterAds.php" destination="$sourcedir" />
+        <require-file name="Sources/BetterAdsFooter.php" destination="$sourcedir" />
+        <require-file name="Themes/default/BetterAds.template.php" destination="$themedir" />
+        <require-file name="Themes/default/BetterAdsAdmin.template.php" destination="$themedir" />
+        <require-file name="Themes/default/languages/BetterAds.english.php" destination="$languagedir" />
+        <require-file name="Themes/default/css/better_ads.css" destination="$themedir/css" />
+        <code>better_ads_upgrade_1_1_0.php</code>
+    </upgrade>
+    <upgrade for="2.1 - 2.1.99" from="1.1.0-dev4">
+        <require-file name="Sources/BetterAds.php" destination="$sourcedir" />
+        <require-file name="Sources/BetterAdsFooter.php" destination="$sourcedir" />
+        <require-file name="Themes/default/BetterAds.template.php" destination="$themedir" />
+        <require-file name="Themes/default/BetterAdsAdmin.template.php" destination="$themedir" />
+        <require-file name="Themes/default/languages/BetterAds.english.php" destination="$languagedir" />
+        <require-file name="Themes/default/css/better_ads.css" destination="$themedir/css" />
+        <code>better_ads_upgrade_1_1_0.php</code>
+    </upgrade>
+    <upgrade for="2.1 - 2.1.99" from="1.1.0-dev5">
+        <require-file name="Sources/BetterAds.php" destination="$sourcedir" />
+        <require-file name="Sources/BetterAdsFooter.php" destination="$sourcedir" />
+        <require-file name="Themes/default/BetterAds.template.php" destination="$themedir" />
+        <require-file name="Themes/default/BetterAdsAdmin.template.php" destination="$themedir" />
+        <require-file name="Themes/default/languages/BetterAds.english.php" destination="$languagedir" />
+        <require-file name="Themes/default/css/better_ads.css" destination="$themedir/css" />
+        <code>better_ads_upgrade_1_1_0.php</code>
+    </upgrade>
+    <upgrade for="2.1 - 2.1.99" from="1.1.0-dev6">
+        <require-file name="Sources/BetterAds.php" destination="$sourcedir" />
+        <require-file name="Sources/BetterAdsFooter.php" destination="$sourcedir" />
+        <require-file name="Themes/default/BetterAds.template.php" destination="$themedir" />
+        <require-file name="Themes/default/BetterAdsAdmin.template.php" destination="$themedir" />
+        <require-file name="Themes/default/languages/BetterAds.english.php" destination="$languagedir" />
+        <require-file name="Themes/default/css/better_ads.css" destination="$themedir/css" />
+        <code>better_ads_upgrade_1_1_0.php</code>
+    </upgrade>
+    <upgrade for="2.1 - 2.1.99" from="1.1.0-dev7">
+        <require-file name="Sources/BetterAds.php" destination="$sourcedir" />
+        <require-file name="Sources/BetterAdsFooter.php" destination="$sourcedir" />
+        <require-file name="Themes/default/BetterAds.template.php" destination="$themedir" />
+        <require-file name="Themes/default/BetterAdsAdmin.template.php" destination="$themedir" />
+        <require-file name="Themes/default/languages/BetterAds.english.php" destination="$languagedir" />
+        <require-file name="Themes/default/css/better_ads.css" destination="$themedir/css" />
+        <code>better_ads_upgrade_1_1_0.php</code>
+    </upgrade>
+    <upgrade for="2.1 - 2.1.99" from="1.1.0-dev7a">
+        <require-file name="Sources/BetterAds.php" destination="$sourcedir" />
+        <require-file name="Sources/BetterAdsFooter.php" destination="$sourcedir" />
+        <require-file name="Themes/default/BetterAds.template.php" destination="$themedir" />
+        <require-file name="Themes/default/BetterAdsAdmin.template.php" destination="$themedir" />
+        <require-file name="Themes/default/languages/BetterAds.english.php" destination="$languagedir" />
+        <require-file name="Themes/default/css/better_ads.css" destination="$themedir/css" />
+        <code>better_ads_upgrade_1_1_0.php</code>
+    </upgrade>
+    <upgrade for="2.1 - 2.1.99" from="1.1.0-dev8">
+        <require-file name="Sources/BetterAds.php" destination="$sourcedir" />
+        <require-file name="Sources/BetterAdsFooter.php" destination="$sourcedir" />
+        <require-file name="Themes/default/BetterAds.template.php" destination="$themedir" />
+        <require-file name="Themes/default/BetterAdsAdmin.template.php" destination="$themedir" />
+        <require-file name="Themes/default/languages/BetterAds.english.php" destination="$languagedir" />
+        <require-file name="Themes/default/css/better_ads.css" destination="$themedir/css" />
+        <code>better_ads_upgrade_1_1_0.php</code>
+    </upgrade>
+    <upgrade for="2.1 - 2.1.99" from="1.1.0-dev9">
+        <require-file name="Sources/BetterAds.php" destination="$sourcedir" />
+        <require-file name="Sources/BetterAdsFooter.php" destination="$sourcedir" />
+        <require-file name="Themes/default/BetterAds.template.php" destination="$themedir" />
+        <require-file name="Themes/default/BetterAdsAdmin.template.php" destination="$themedir" />
+        <require-file name="Themes/default/languages/BetterAds.english.php" destination="$languagedir" />
+        <require-file name="Themes/default/css/better_ads.css" destination="$themedir/css" />
+        <code>better_ads_upgrade_1_1_0.php</code>
+    </upgrade>
+    <upgrade for="2.1 - 2.1.99" from="1.1.0-dev9a">
+        <require-file name="Sources/BetterAds.php" destination="$sourcedir" />
+        <require-file name="Sources/BetterAdsFooter.php" destination="$sourcedir" />
+        <require-file name="Themes/default/BetterAds.template.php" destination="$themedir" />
+        <require-file name="Themes/default/BetterAdsAdmin.template.php" destination="$themedir" />
+        <require-file name="Themes/default/languages/BetterAds.english.php" destination="$languagedir" />
+        <require-file name="Themes/default/css/better_ads.css" destination="$themedir/css" />
+        <code>better_ads_upgrade_1_1_0.php</code>
+    </upgrade>
+    <upgrade for="2.1 - 2.1.99" from="1.1.0-dev9b">
+        <require-file name="Sources/BetterAds.php" destination="$sourcedir" />
+        <require-file name="Sources/BetterAdsFooter.php" destination="$sourcedir" />
+        <require-file name="Themes/default/BetterAds.template.php" destination="$themedir" />
+        <require-file name="Themes/default/BetterAdsAdmin.template.php" destination="$themedir" />
+        <require-file name="Themes/default/languages/BetterAds.english.php" destination="$languagedir" />
+        <require-file name="Themes/default/css/better_ads.css" destination="$themedir/css" />
+        <code>better_ads_upgrade_1_1_0.php</code>
+    </upgrade>
+    <upgrade for="2.1 - 2.1.99" from="1.1.0-dev9c">
+        <require-file name="Sources/BetterAds.php" destination="$sourcedir" />
+        <require-file name="Sources/BetterAdsFooter.php" destination="$sourcedir" />
+        <require-file name="Themes/default/BetterAds.template.php" destination="$themedir" />
+        <require-file name="Themes/default/BetterAdsAdmin.template.php" destination="$themedir" />
+        <require-file name="Themes/default/languages/BetterAds.english.php" destination="$languagedir" />
+        <require-file name="Themes/default/css/better_ads.css" destination="$themedir/css" />
+        <code>better_ads_upgrade_1_1_0.php</code>
+    </upgrade>
+    <upgrade for="2.1 - 2.1.99" from="1.1.0-dev9d">
+        <require-file name="Sources/BetterAds.php" destination="$sourcedir" />
+        <require-file name="Sources/BetterAdsFooter.php" destination="$sourcedir" />
+        <require-file name="Themes/default/BetterAds.template.php" destination="$themedir" />
+        <require-file name="Themes/default/BetterAdsAdmin.template.php" destination="$themedir" />
+        <require-file name="Themes/default/languages/BetterAds.english.php" destination="$languagedir" />
+        <require-file name="Themes/default/css/better_ads.css" destination="$themedir/css" />
+        <code>better_ads_upgrade_1_1_0.php</code>
+    </upgrade>
+    <upgrade for="2.1 - 2.1.99" from="1.1.0-dev9e">
+        <require-file name="Sources/BetterAds.php" destination="$sourcedir" />
+        <require-file name="Sources/BetterAdsFooter.php" destination="$sourcedir" />
+        <require-file name="Themes/default/BetterAds.template.php" destination="$themedir" />
+        <require-file name="Themes/default/BetterAdsAdmin.template.php" destination="$themedir" />
+        <require-file name="Themes/default/languages/BetterAds.english.php" destination="$languagedir" />
+        <require-file name="Themes/default/css/better_ads.css" destination="$themedir/css" />
+        <code>better_ads_upgrade_1_1_0.php</code>
+    </upgrade>
+
+    <uninstall for="2.1 - 2.1.99">
+        <code>better_ads_uninstall_hooks.php</code>
+        <database>better_ads_uninstall_data.php</database>
+        <remove-file name="$sourcedir/BetterAds.php" />
+        <remove-file name="$sourcedir/BetterAdsFooter.php" />
+        <remove-file name="$themedir/BetterAds.template.php" />
+        <remove-file name="$themedir/BetterAdsAdmin.template.php" />
+        <remove-file name="$languagedir/BetterAds.english.php" />
+        <remove-file name="$themedir/css/better_ads.css" />
+    </uninstall>
+</package-info>
